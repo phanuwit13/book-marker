@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "REACT_APP_RUN_ON=production next build ",
+    "build": "REACT_APP_RUN_ON=production next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
